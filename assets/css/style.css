@@ -24,6 +24,28 @@ body {
     overflow-x: hidden;
 }
 
+/* section-header */
+.section-header {
+    position: relative;
+    text-align: center;
+}
+
+.section-header h2 {
+    color: #505866;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+
+.section-header h2 span {
+    text-transform: lowercase;
+}
+
+.section-header p {
+    font-size: 16px;
+}
 
 /*-------------------------------------
         8. Reviews
