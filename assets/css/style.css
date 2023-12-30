@@ -1,38 +1,12 @@
-/*==================================
-* Author        : "ThemeSine"
-* Template Name : Listrace  HTML Template
-* Version       : 1.0
-==================================== */
-
-/*==================================
-font-family: 'Roboto', sans-serif;
-==================================== */
-
-
 /*=========== TABLE OF CONTENTS ===========
 1.  General css (Reset code)
-2.  Header-top
-3.  Top-area
-4.  Welcome-hero
-5.  List-topics
-6.  Works  
-7.  Explore
 8.  Reviews
-9.  Counter
-10. Blog
 11. Subscribe
-12. Footer
 ==========================================*/
 
-/*-------------------------------------
-		1.General css (Reset code)
---------------------------------------*/
 * {
     padding: 0;
     margin: 0;
-}
-
-* {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
@@ -50,123 +24,6 @@ body {
     overflow-x: hidden;
 }
 
-a,
-a:hover,
-a:active,
-a:focus {
-    display: inline-block;
-    text-decoration: none;
-    color: #343a3f;
-    font-size: 16px;
-    padding: 0;
-    font-weight: 500;
-    text-transform: capitalize;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
-    color: #343a3f;
-    font-size: 18px;
-    font-weight: 500;
-    text-transform: capitalize;
-}
-
-p {
-    margin: 0;
-    color: #767f86;
-    font-size: 14px;
-    line-height: 1.8;
-    text-transform: initial;
-}
-
-img {
-    border: none;
-    max-width: 100%;
-    height: auto;
-}
-
-ul {
-    padding: 0;
-    margin: 0 auto;
-    list-style: none;
-}
-
-ul li {
-    list-style: none;
-
-}
-
-select,
-input,
-textarea,
-button {
-    box-shadow: none;
-    outline: 0 !important;
-}
-
-button {
-    background: transparent;
-    border: 0;
-    font-size: 12px;
-}
-
-html,
-body {
-    height: 100%;
-}
-
-[placeholder]:focus::-webkit-input-placeholder {
-    -webkit-transition: opacity 0.3s 0.3s ease;
-    -moz-transition: opacity 0.3s 0.3s ease;
-    -ms-transition: opacity 0.3s 0.3s ease;
-    -o-transition: opacity 0.3s 0.3s ease;
-    transition: opacity 0.3s 0.3s ease;
-    opacity: 0;
-}
-
-/* section-header */
-.section-header {
-    position: relative;
-    text-align: center;
-}
-
-.section-header h2 {
-    color: #505866;
-    font-size: 24px;
-    font-weight: 500;
-    margin-bottom: 24px;
-    text-transform: uppercase;
-    letter-spacing: 1.3px;
-}
-
-.section-header h2 span {
-    text-transform: lowercase;
-}
-
-.section-header p {
-    font-size: 16px;
-}
-
-/* section-header */
-.fix {
-    position: relative;
-    clear: both;
-}
-
-/*=============Style css=========*/
-
-
-/*-------------------------------------
-        2. Header-top
---------------------------------------*/
-.header-top {
-    border-bottom: 1px solid #f6f8fa;
-}
 
 /*-------------------------------------
         8. Reviews
